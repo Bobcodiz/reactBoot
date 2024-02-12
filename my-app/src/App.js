@@ -1,12 +1,14 @@
-import Registration from "./components/Registration";
-import GridComplex from "./components/GridComplex";
+
 import Signup from "./components/authorization/Signup";
+import {Container} from "react-bootstrap";
 
 function App() {
   return (
     <div className="App">
         {/*<Registration/>*/}
-        <Signup/>
+        <Container>
+            <Signup/>
+        </Container>
     </div>
   );
 }

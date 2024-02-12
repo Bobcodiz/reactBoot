@@ -1,0 +1,13 @@
+.form1{
+    background-color: darkgray;
+    width: 400px;
+    min-height: fit-content;
+    border-radius: 4px;
+    border: 2px solid black;
+    margin: auto;
+}
+h2{
+    text-align: center;
+    color: blue;
+    text-decoration: underline;
+}
