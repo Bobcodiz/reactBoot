@@ -1,10 +1,12 @@
-import Reg from "./components/Reg";
+import Registration from "./components/Registration";
+import GridComplex from "./components/GridComplex";
+import Signup from "./components/authorization/Signup";
 
 function App() {
   return (
     <div className="App">
-      <h2>bob</h2>
-        <Reg/>
+        {/*<Registration/>*/}
+        <Signup/>
     </div>
   );
 }
