@@ -1,6 +1,6 @@
-
-import Signup from "./components/authorization/Signup";
 import {Container} from "react-bootstrap";
+import Registration from "./components/Registration";
+import Signup from "./components/authorization/Signup";
 
 function App() {
   return (
