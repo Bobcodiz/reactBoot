@@ -1,13 +1,13 @@
 import Form from "react-bootstrap/Form";
-import {Row} from "react-bootstrap";
-
+import {Button, Row} from "react-bootstrap";
+import "./SignupStyle.css"
 
 const Signup = ()=>{
 
     return (
         <>
-            <Row>
-                <Form as={Form} className="registrationForm">
+            <Row as={"div"} className="reg">
+                <Form as={Form} className="registrationForm" >
                     <h3 className= "registrationHeader">SignUp</h3>
                     <hr/>
                     <Form.Group>
@@ -30,6 +30,8 @@ const Signup = ()=>{
                     </Form.Group>
 
                     <hr/>
+                    <Button variant="primary">Signup</Button>
+                    <p>Already have an account?Login</p>
                 </Form>
             </Row>
         </>
