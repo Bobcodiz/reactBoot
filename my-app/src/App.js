@@ -1,14 +1,14 @@
 import {Container} from "react-bootstrap";
-import Registration from "./components/Registration";
-import Signup from "./components/authorization/Signup";
+import Home from "./components/authorization/Home";
 
 function App() {
   return (
     <div className="App">
         {/*<Registration/>*/}
-        <Container>
-            <Signup/>
+        <Container >
+            <Home></Home>
         </Container>
+
     </div>
   );
 }

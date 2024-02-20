@@ -30,7 +30,7 @@ const Signup = ()=>{
                     </Form.Group>
 
                     <hr/>
-                    <Button variant="primary">Signup</Button>
+                    <Button variant="primary" type={"submit"}>Signup</Button>
                     <p>Already have an account?Login</p>
                 </Form>
             </Row>
