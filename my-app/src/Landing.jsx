@@ -1,10 +1,14 @@
-import { Container } from "react-bootstrap";
+import { Container, Nav } from "react-bootstrap";
 
 
 export default function Landing(){
     return(
         <>
-            <Container></Container>
+            <Container>
+                <Nav>
+                    <Nav.Item></Nav.Item>
+                </Nav>
+            </Container>
         </>
     )
 }
