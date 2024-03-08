@@ -9,6 +9,12 @@ export default function Landing(){
                     <Nav.Item>
                         <Nav.Link>Home</Nav.Link>
                     </Nav.Item>
+                    <Nav.Item>
+                        <Nav.Link>Contacts</Nav.Link>
+                    </Nav.Item>
+                    <Nav.Item>
+                        <Nav.Link>Gallery</Nav.Link>
+                    </Nav.Item>
                 </Nav>
             </Container>
         </>
