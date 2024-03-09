@@ -15,6 +15,9 @@ export default function Landing(){
                     <Nav.Item>
                         <Nav.Link>Gallery</Nav.Link>
                     </Nav.Item>
+                    <Nav.Item>
+                        <Nav.Link>LogIn</Nav.Link>
+                    </Nav.Item>
                 </Nav>
             </Container>
         </>
