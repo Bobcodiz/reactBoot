@@ -6,7 +6,8 @@ export default function login(){
         <>
             <Container>
                 <Form as={Form} className="loginform">
-                    
+                    <Form.Label>first name</Form.Label>
+                    <Form.Control type="text" placeholder="first name"/>
                 </Form>
             </Container>
         </>
