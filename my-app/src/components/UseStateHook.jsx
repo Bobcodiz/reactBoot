@@ -8,7 +8,7 @@ export default function UseStateHook(){
     return(
     <>
         <Container>
-            <Button onClick={setCount + 1}>{count}</Button>
+            <Button onClick={()=>setCount (count+ 1)}>count{count}</Button>
         </Container>
     </>)
 }
