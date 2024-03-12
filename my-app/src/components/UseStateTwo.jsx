@@ -19,7 +19,9 @@ function UseStateTwo() {
             <Button onClick={Increase}>Increment Five</Button>
         </Stack>
         <Stack>
-            <div></div>
+            <div>
+                <h1></h1>
+            </div>
         </Stack>
     </div>
   )
