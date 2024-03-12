@@ -12,12 +12,13 @@ function UseStateTwo() {
     }
   return (
     <div>
-        count:{count}
+        count:{countTempl}
         <Stack direction='horizontal'>
             <Button onClick={()=>setCount(prev=>prev+1)}>Increment</Button>
             <Button onClick={()=>setCount(prev=>prev - 1)}> Decrement</Button>
             <Button onClick={Increase}>Increment Five</Button>
         </Stack>
+        <Stack></Stack>
     </div>
   )
 }
