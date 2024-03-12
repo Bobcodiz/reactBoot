@@ -18,7 +18,9 @@ function UseStateTwo() {
             <Button onClick={()=>setCount(prev=>prev - 1)}> Decrement</Button>
             <Button onClick={Increase}>Increment Five</Button>
         </Stack>
-        <Stack></Stack>
+        <Stack>
+            <div></div>
+        </Stack>
     </div>
   )
 }
