@@ -7,6 +7,7 @@ import ObjectHook from "./ObjectHook.jsx";
 import {ArrayHooking} from "./ArrayHooking.jsx";
 import {ColourChangeWithHooks} from "./ColourChangeWithHooks.jsx";
 import {Counter} from "./problems/Counter.jsx";
+import {DynamicFields} from "./problems/DynamicFields.jsx";
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
@@ -15,6 +16,7 @@ createRoot(document.getElementById('root')).render(
     {/*<ObjectHook/>*/}
    {/* <ArrayHooking/>*/}
       {/*<ColourChangeWithHooks/>*/}
-      <Counter/>
+     {/* <Counter/>*/}
+      <DynamicFields/>
   </StrictMode>,
 )
