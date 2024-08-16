@@ -6,6 +6,7 @@ import CounterHook from './counterHook.jsx'
 import ObjectHook from "./ObjectHook.jsx";
 import {ArrayHooking} from "./ArrayHooking.jsx";
 import {ColourChangeWithHooks} from "./ColourChangeWithHooks.jsx";
+import {Counter} from "./problems/Counter.jsx";
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
@@ -13,6 +14,7 @@ createRoot(document.getElementById('root')).render(
       {/*<CounterHook/>*/}
     {/*<ObjectHook/>*/}
    {/* <ArrayHooking/>*/}
-      <ColourChangeWithHooks/>
+      {/*<ColourChangeWithHooks/>*/}
+      <Counter/>
   </StrictMode>,
 )
