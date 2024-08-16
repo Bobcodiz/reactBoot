@@ -8,6 +8,7 @@ import {ArrayHooking} from "./ArrayHooking.jsx";
 import {ColourChangeWithHooks} from "./ColourChangeWithHooks.jsx";
 import {Counter} from "./problems/Counter.jsx";
 import {DynamicFields} from "./problems/DynamicFields.jsx";
+import {DynamicShopListings} from "./problems/DynamicShopListings.jsx";
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
@@ -17,6 +18,7 @@ createRoot(document.getElementById('root')).render(
    {/* <ArrayHooking/>*/}
       {/*<ColourChangeWithHooks/>*/}
      {/* <Counter/>*/}
-      <DynamicFields/>
+     {/* <DynamicFields/>*/}
+      <DynamicShopListings/>
   </StrictMode>,
 )
